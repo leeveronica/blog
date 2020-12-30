@@ -7,6 +7,7 @@ module.exports = {
   pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
     url: siteConfig.url,
+    // siteUrl: 'https://leeveronica.github.io/blog',
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
@@ -98,10 +99,13 @@ module.exports = {
         }]
       }
     },
+    // Including in your Gatsby plugins will transform any paths in your frontmatter
+    'gatsby-plugin-netlify-cms-paths',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-plugin-netlify-cms-paths',
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-katex',

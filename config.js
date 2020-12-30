@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'http://leeveronica.github.io',
+  pathPrefix: '/blog',
+  title: 'Blog by Veronica Lee',
+  subtitle: 'Business-oriented data scientist for future cities',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-137749891-1',
   useKatex: false,
   menu: [
     {
@@ -25,18 +25,18 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Veronica Lee',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Business-oriented data scientist for future cities',
     contacts: {
-      email: '',
+      email: 'veronica.sm.lee@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'leeveronica',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
+      linkedin: 'leeveronica',
       instagram: '#',
       line: '',
       gitlab: '',
